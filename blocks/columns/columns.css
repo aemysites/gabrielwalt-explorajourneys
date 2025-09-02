@@ -31,3 +31,157 @@
     order: unset;
   }
 }
+
+
+.columns {
+  background: var(--background-color);
+  padding: 64px 7vw 80px 7vw;
+  box-sizing: border-box;
+}
+
+/* Four columns: equal width, more air between columns */
+.columns > div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 84px;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: start;
+  justify-items: start;
+}
+
+/* Each column: vertical stack, left aligned, equal width */
+.columns > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  max-width: 320px;
+  width: 100%;
+  padding-bottom: 32px;
+  box-sizing: border-box;
+}
+
+/* Cap newsletter column height, scroll overflow, match width */
+.columns > div > div:last-child {
+  max-height: 700px;
+  overflow-y: auto;
+  max-width: 320px;
+  width: 100%;
+  padding-right: 16px;
+}
+
+/* Section headings: larger, bold, more margin below, more air above buttons */
+.columns > div > div > *:first-child {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.28em;
+  margin-bottom: 52px;
+  margin-top: 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* In last column, make big headings smaller and space out for harmony */
+.columns > div > div:last-child h3,
+.columns > div > div:last-child h4 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 42px;
+  margin-bottom: 34px;
+  line-height: 1.13;
+}
+
+/* Buttons: allow text wrapping, outlined, left-aligned, airy */
+.columns .button-container {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+}
+
+.columns .button-container .button {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--text-color);
+  background: var(--background-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  padding: 22px 32px;
+  font-size: 1.12em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-top: 0;
+  text-align: left;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  outline: none;
+  line-height: 1.45;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  word-break: break-word;
+}
+
+/* Extra air below last button in each group */
+.columns .button-container:last-of-type {
+  margin-bottom: 52px;
+}
+
+/* Lighter, smaller body text for descriptions and form fields */
+.columns > div > div > p:not(:first-child):not(.button-container) {
+  color: #aaa;
+  font-size: 0.95em;
+  margin-bottom: 24px;
+  margin-top: 0;
+  line-height: 1.8;
+}
+
+/* Left alignment and proper word breaking for all content */
+.columns > div > div > * {
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+/* Responsive: 2 columns for tablet, 1 for mobile, adapt gaps */
+@media (max-width: 1100px) {
+  .columns > div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 56px;
+  }
+  .columns {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  .columns > div > div,
+  .columns > div > div:last-child {
+    max-width: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .columns > div {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    max-width: 97vw;
+  }
+  .columns {
+    padding: 32px 2vw;
+  }
+  .columns > div > div,
+  .columns > div > div:last-child {
+    max-width: none;
+  }
+}
+
+/* Links: elegant, neutral, soft hover */
+.columns a {
+  color: var(--text-color);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.columns a:hover {
+  color: #B48A58;
+}
