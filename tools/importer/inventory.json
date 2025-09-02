@@ -1,0 +1,1437 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-00-8499e147dfd3c5cfc9dc9db55212c6af838407ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-01-7061ebb68a3643451f6c8bc88c0b8867baa326bd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"
+        }
+      ],
+      "styles": {
+        "height": 76,
+        "background": "rgb(244, 242, 239) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-30-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-31-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-07-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-08-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-34-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-35-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-07-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-08-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-09-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-10-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-16-260a5d8d6dd4f8e4159d2227aa562c3a5a35d193",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-17-1baf9ec8a6e23e0c31655d59937110ef29585f70",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-33-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-34-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        }
+      ],
+      "styles": {}
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Columns",
+      "cluster": 1,
+      "source": "Columns",
+      "target": "Columns (columns1)",
+      "key": "columns1",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-05-9f145f39bf81b2d04804abd4a86483cae18d864e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-05-9f145f39bf81b2d04804abd4a86483cae18d864e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 2,
+      "source": "Columns",
+      "target": "Columns (columns2)",
+      "key": "columns2",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-24-1d943769ad17d014cf74e6dee8788316c493a226",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-03-1ea5c2b5b2d6e8a8e5990d7c5381facb128638f2",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-05-63717350979681f77fcc11313792b2b8551d6dae",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-16-048c030f64951a4af9ca8985e18a5d2b3d0bb028",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-16-b5296442562a14ce837515e17887e1abe56023a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-16-cb7c8b57c26e5f02a4f62086d4e38f02d70658fc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 4,
+      "source": "Header",
+      "target": "Header (header4)",
+      "key": "header4",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-00-8499e147dfd3c5cfc9dc9db55212c6af838407ea",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-00-5442531e70fa62e35b08aa4d9a7ae27325d74a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 5,
+      "source": "Columns",
+      "target": "Columns (columns5)",
+      "key": "columns5",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-05-e05250f299e1aa8f1754886c7699fc620ed71033",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-06-9d16194f6873c57646451b07c9047b73099baf74",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 6,
+      "source": "Tabs",
+      "target": "Tabs (tabs6)",
+      "key": "tabs6",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-19-d6d0c52fcb5bdbd87d454d563980acf7d8a4641a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[2]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-19-23fd94a76e1a48137cffc1d218d0f6b09c5920e6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[2]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-19-a97eae8775400b0e9c0220d4b6753bfdd642191d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[2]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-20-4665a7089759a91cbd386bdfe35ec997c282b478",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[2]/div[2]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-20-d705651e7fdcf7cfea571b9be3a4f11e1aba367c",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[2]/div[2]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-20-40aef5e7544a1ca5bb15a0ca70915e5804560f74",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[2]/div[2]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 8,
+      "source": "Cards",
+      "target": "Cards (cards8)",
+      "key": "cards8",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-23-23fe3768235c3f7231bb6b48ce65ba0cc3ac8f7f",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-23-381c3df985a0400d9b714acef50a75814a7f76c3",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-23-2a2f6b4634c9860fb804b4fd725dfed8f4e045e9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[12]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 9,
+      "source": "Carousel",
+      "target": "Carousel (carousel9)",
+      "key": "carousel9",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-12-58f61183e5eaa3520e38f07168822f76291c81d7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[2]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-12-7cd043d5a53db22436dc5347042319d20e482b0e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[3]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-12-9d2b33aa022abce185a672d1837211dc681e801b",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-26-5df44376485e76aaaa5f501bd99b6575af83a8a1",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[13]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-30-4acf5aee6652a3daeb21cc9ecb8f3f8aab3e0ac6",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[19]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-29-56e88540a310ccb59a3ea9fe48a1e7cb05698474",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[20]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-13-f9d512394b1ace3a4832d795439ac67e95f27ead",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[2]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-13-4b6405d3065275aa45ca6bdad981293abf16c622",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-13-2d2f7d6561b75fd66dd314a9ed3720d9c6822ff7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-15-233039f54b2818c73848a1bee4be3cf772ab2fa0",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[9]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 13,
+      "source": "Header",
+      "target": "Header (header13)",
+      "key": "header13",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-01-7061ebb68a3643451f6c8bc88c0b8867baa326bd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-01-3078f7d60c208524bce7cf90d69eca55cc816fcf",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-30-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-07-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-34-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-07-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-09-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-16-260a5d8d6dd4f8e4159d2227aa562c3a5a35d193",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-33-2623902d46912b9bb193eb2479775872e2dc76c7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 15,
+      "source": "Hero",
+      "target": "Hero (hero15)",
+      "key": "hero15",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-29-1531727477bcbef3c41eb57ac2a62b25e36abea2",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[2]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-33-e2e01d9a1d2325609d07fefc2ac21d31ee28810b",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[20]/div[1]/div[2]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-32-8a7e4953ed10382bc12d01df6fcf58216f69fffa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[21]/div[1]/div[2]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 16,
+      "source": "Columns",
+      "target": "Columns (columns16)",
+      "key": "columns16",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-25-5c098c1b5bb9e05bceaf192d40341686e713f307",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[12]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-28-0af660ba932fe289b06e04f444289361683f9b1d",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[17]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 17,
+      "source": "Hero",
+      "target": "Hero (hero17)",
+      "key": "hero17",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+          "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+          "uuid": "27e394eb-02-68c0a081f09f70a94de639d3f533d4b557f3befe",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+          "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+          "uuid": "b1c2a614-02-68c0a081f09f70a94de639d3f533d4b557f3befe",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 18,
+      "source": "Hero",
+      "target": "Hero (hero18)",
+      "key": "hero18",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-10-1b147738c9fc560cda1732b549065f06c611e590",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 19,
+      "source": "Columns",
+      "target": "Columns (columns19)",
+      "key": "columns19",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-29-0c798ca7c34380d10c3ff22f3c9203b26c315bfc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[18]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 20,
+      "source": "Carousel",
+      "target": "Carousel (carousel20)",
+      "key": "carousel20",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-25-d9245470f4a844282e62ad103b40e509cc86a318",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[16]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 21,
+      "source": "Cards",
+      "target": "Cards (cards21)",
+      "key": "cards21",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-08-1d283f305b1c9b3d3ef4c2293abc208926774a15",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 22,
+      "source": "Cards",
+      "target": "Cards (cards22)",
+      "key": "cards22",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-08-94a04506d45bd7d244bd7064f1cea7a162dcd38b",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 23,
+      "source": "Cards",
+      "target": "Cards (cards23)",
+      "key": "cards23",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+          "uuid": "01b802da-09-ad434f2fb287c4674acd1b90008f2398fb3d65a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-09-ad434f2fb287c4674acd1b90008f2398fb3d65a7",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-09-05fbe215cd19ac63aedfef9fc4e5bb49c4cb31bc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[2]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 24,
+      "source": "Columns",
+      "target": "Columns (columns24)",
+      "key": "columns24",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-09-29818286d5030bebbb87e8a17998090a946b17dd",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 25,
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-14-9a929aad927278e6c04b6bf792af73a613d37535",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 26,
+      "source": "Hero",
+      "target": "Hero (hero26)",
+      "key": "hero26",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+          "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+          "uuid": "ec97a063-04-8b39c5c4c2d554dfd81ceaf39f2a865604966ef2",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[4]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 27,
+      "source": "Columns",
+      "target": "Columns (columns27)",
+      "key": "columns27",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-13-8561179d8f8dedac95fb2950675c17add24dc6f9",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 28,
+      "source": "Columns",
+      "target": "Columns (columns28)",
+      "key": "columns28",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-03-52a062877e0bb5ef041144a4488237fe2bc16f50",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 29,
+      "source": "Cards",
+      "target": "Cards (cards29)",
+      "key": "cards29",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-07-bdb6e823cc4a0c19df4bd782558bef4ec57dce3e",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 30,
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-06-22b385d4d4819e365e2c9d3245772c4a96025255",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 31,
+      "source": "Columns",
+      "target": "Columns (columns31)",
+      "key": "columns31",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+          "uuid": "f8df518e-27-0c798ca7c34380d10c3ff22f3c9203b26c315bfc",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[18]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 32,
+      "source": "Columns",
+      "target": "Columns (columns32)",
+      "key": "columns32",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en",
+          "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+          "uuid": "f3c111e0-11-10c65874dd943bc241093ec2d1be80f558bb7232",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[7]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 33,
+      "source": "Cards",
+      "target": "Cards (cards33)",
+      "key": "cards33",
+      "instances": [
+        {
+          "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+          "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+          "uuid": "468a5ee9-25-4ddec6c07e27610f4f78e0621f37224e44083f0a",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[14]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-02-68c0a081f09f70a94de639d3f533d4b557f3befe",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-03-9ebcaeba0ee8aa4b11cc9828f012f6f7db8ee78e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-04-1ea5c2b5b2d6e8a8e5990d7c5381facb128638f2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-05-8b39c5c4c2d554dfd81ceaf39f2a865604966ef2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-06-e05250f299e1aa8f1754886c7699fc620ed71033",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-07-e3ca99c9d2bcd0353278ec1922e9a941dec0d469",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-08-75e1b434913d1a062ad64ff838d413468c594168",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-11-7a608ec58353a9e12e52220698d1d74ce26659a1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-14-48790dc26d112de94e1f6c125876b2b9e20c5ea3",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-15-d69ccbb3d813c894774b3326d0978ed2ff064a74",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-17-53cfee8662ec5012b3d8b85c0accbd8b1057b7ca",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-18-8441141c6a86d7fc41393c23ff151ada8ba56ce5",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-21-9d2b33aa022abce185a672d1837211dc681e801b",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-22-81a0aa03ccf66b4986487622da10febe002a7452",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-27-18119e2f994df328101c70bd1e128ec4da1a52ea",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-28-e90ed4baf17f98604958bf2b088d03e44ff0fdc9",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "01b802da993fc3f134a1e6ea15ef2648da138c6d",
+      "uuid": "01b802da-31-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+      "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+      "uuid": "27e394eb-03-3bae2f7ef2bced78352b0d0f20b4b7e2370fb9ec",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+      "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+      "uuid": "27e394eb-04-72171bde95779120307cea4e0e5b96cc8a098809",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+      "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+      "uuid": "27e394eb-06-1ea5c2b5b2d6e8a8e5990d7c5381facb128638f2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+      "urlHash": "27e394eb0a2238de40f9cfd5a6a58206a1200d90",
+      "uuid": "27e394eb-08-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-02-68c0a081f09f70a94de639d3f533d4b557f3befe",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-03-9ebcaeba0ee8aa4b11cc9828f012f6f7db8ee78e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-04-1ea5c2b5b2d6e8a8e5990d7c5381facb128638f2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-05-8b39c5c4c2d554dfd81ceaf39f2a865604966ef2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-06-e05250f299e1aa8f1754886c7699fc620ed71033",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-07-e3ca99c9d2bcd0353278ec1922e9a941dec0d469",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-08-75e1b434913d1a062ad64ff838d413468c594168",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-10-f2e701b5ecd496a4385250c0e19c7af8e4adc7c8",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-11-aeb182ab6e4d0f0180855f6731acf145cfd777b8",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-14-6bedc424656432ef5fed2deb4309a229ef848f17",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-15-bc45549c6cde9f17fda711d80d5e0751dc9bcb8f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-17-02f917a4fe85d775c19f0fa87f759a7d2e12d00a",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-18-ac11efe6d155c24fdea6e0a477e8cb76ade68329",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-21-95d53ffbe69003f918e1e3dd01a46c94220cafe8",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-22-1797d1cb1256dee86c75d153eaa3f128b33835d0",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-24-5df44376485e76aaaa5f501bd99b6575af83a8a1",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[13]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-26-f582362e470854ae8791a1d6536d91892c7a56c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[15]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-27-d9245470f4a844282e62ad103b40e509cc86a318",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[16]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-31-06df0c9c6c5e62a670d8903d365271c0de15a5a2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[20]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-32-8ace8105c5c1cdab58c6568ebfcb45d840449862",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[20]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a",
+      "uuid": "468a5ee9-35-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+      "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+      "uuid": "b1c2a614-03-3bae2f7ef2bced78352b0d0f20b4b7e2370fb9ec",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/nav[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+      "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+      "uuid": "b1c2a614-04-72171bde95779120307cea4e0e5b96cc8a098809",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+      "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+      "uuid": "b1c2a614-06-1ea5c2b5b2d6e8a8e5990d7c5381facb128638f2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+      "urlHash": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b",
+      "uuid": "b1c2a614-08-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+      "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+      "uuid": "ec97a063-02-68c0a081f09f70a94de639d3f533d4b557f3befe",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+      "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+      "uuid": "ec97a063-07-1b147738c9fc560cda1732b549065f06c611e590",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+      "urlHash": "ec97a063c8dea52ba04be168adcf90eb2d77a075",
+      "uuid": "ec97a063-10-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en",
+      "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+      "uuid": "f3c111e0-02-d80b516e3ff651e1af394a2fe6d2dfee4464985c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en",
+      "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+      "uuid": "f3c111e0-04-434797800b411df1c27d96e61f5c6285a96c0d06",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en",
+      "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+      "uuid": "f3c111e0-10-b487a817f7413e6bdc3e13304058c70360d29c8c",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en",
+      "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+      "uuid": "f3c111e0-12-be91737b3a1c34a99bdf4a55c0cde318d5a635fb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en",
+      "urlHash": "f3c111e09e1f0110cd603b9dab2b48c09e090a75",
+      "uuid": "f3c111e0-17-1baf9ec8a6e23e0c31655d59937110ef29585f70",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-02-68c0a081f09f70a94de639d3f533d4b557f3befe",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-03-9ebcaeba0ee8aa4b11cc9828f012f6f7db8ee78e",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-04-1ea5c2b5b2d6e8a8e5990d7c5381facb128638f2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-05-8b39c5c4c2d554dfd81ceaf39f2a865604966ef2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-06-e05250f299e1aa8f1754886c7699fc620ed71033",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[5]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-07-1b147738c9fc560cda1732b549065f06c611e590",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-08-735b723216b3da28fae7f5547cacfce77391caf7",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[7]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-10-d69ccbb3d813c894774b3326d0978ed2ff064a74",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[8]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-11-44bba66cc1d6958b45fa0737d6e176df999dfeff",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-14-c57c8f56d17f6bfb634430443ba348cc32a44f03",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-15-e427d49864ff3a37d767219fe57636fcef9f27ef",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[10]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-17-2d951e6737df550e89fc137780870a5e66650f64",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-18-5dca27d946182a2d257da1d2ac36ac1d71edf2ec",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-21-d0546e5712ee3dfd7fdd772c8d96d493d9fcc6ad",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-22-631d11bbbdf49f4589554d5a541e878ae3d9dd5f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-24-f582362e470854ae8791a1d6536d91892c7a56c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[15]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-26-0af660ba932fe289b06e04f444289361683f9b1d",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[17]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-28-4acf5aee6652a3daeb21cc9ecb8f3f8aab3e0ac6",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[19]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-30-cc0aea4a6f5084dc576bf95ba030070d02cfe475",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[21]/div[1]/div[1]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-31-c29be3a6b1d86646f881e3d691bf681392a2e7ce",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[21]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "urlHash": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6",
+      "uuid": "f8df518e-34-28d8e22496a1c3274423b97d98d13db4c6e2e09f",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(244, 242, 239) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 38
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(231, 225, 218) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    }
+  ]
+}
