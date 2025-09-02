@@ -1,0 +1,63 @@
+{
+  "originUrl": "https://explorajourneys.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://explorajourneys.com/jp/en",
+      "source": "MANUAL",
+      "targetPath": "/jp/en",
+      "id": "f3c111e09e1f0110cd603b9dab2b48c09e090a75"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/about-explora-journeys/our-story",
+      "source": "MANUAL",
+      "targetPath": "/jp/en/about-explora-journeys/our-story",
+      "id": "ec97a063c8dea52ba04be168adcf90eb2d77a075"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/bcncvv-07-v2?id-journey=EP20250908BCNCVV",
+      "source": "MANUAL",
+      "targetPath": "/jp/en/destinations-globe/med/journeys/bcncvv-07-v2",
+      "id": "27e394eb0a2238de40f9cfd5a6a58206a1200d90"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/destinations-globe/med/journeys/pirist-07-v4?id-journey=EX20250912PIRIST",
+      "source": "MANUAL",
+      "targetPath": "/jp/en/destinations-globe/med/journeys/pirist-07-v4",
+      "id": "b1c2a614c4e56d75e3a568715815f3c0cf2ea77b"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-I?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20I&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "source": "MANUAL",
+      "targetPath": "/jp/en/ships/explora-i",
+      "id": "468a5ee99c8e5aa23eeece0b7476d9bb2db4194a"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-ii?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20II&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "source": "MANUAL",
+      "targetPath": "/jp/en/ships/explora-ii",
+      "id": "f8df518e0f115e4c11c676e82fd7355c56d7c4c6"
+    },
+    {
+      "url": "https://explorajourneys.com/jp/en/ships/explora-III?sortCriteria=%40sailfromdatetime%20ascending%2C%40priceperguest_doubleoccupancy_201%20ascending&f-ship=EXPLORA%20III&cq=%40language%3D%3D%22en%22&numberOfResults=9",
+      "source": "MANUAL",
+      "targetPath": "/jp/en/ships/explora-iii",
+      "id": "01b802da993fc3f134a1e6ea15ef2648da138c6d"
+    }
+  ],
+  "lastCrawled": null,
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
