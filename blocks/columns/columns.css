@@ -625,20 +625,15 @@
     padding: 0;
   }
 }
-
-
-/* Limit to just two columns: show only the first and last child columns, hide the rest */
 .columns > div > div:not(:first-child):not(:last-child) {
   display: none;
 }
-
-/* Update layout to two side-by-side columns using flex */
 .columns > div {
   display: flex;
   flex-direction: row;
-  align-items: center;         /* Vertically center both columns */
-  justify-content: flex-start; /* Pack columns to the left, use margin for spacing */
-  gap: 56px;                   /* Reduce gap for closer grouping */
+  align-items: center;
+  justify-content: flex-start;
+  gap: 56px;
   width: 100%;
   max-width: 1050px;
   margin: 0 auto;
@@ -646,8 +641,6 @@
   box-sizing: border-box;
   padding: 0 32px;
 }
-
-/* Responsive: stack columns vertically on mobile */
 @media (max-width: 900px) {
   .columns > div {
     flex-direction: column;
@@ -657,8 +650,6 @@
     padding: 0 8vw;
   }
 }
-
-/* Left column: vertical menu/navigation */
 .columns > div > div:first-child {
   display: flex;
   flex-direction: column;
@@ -671,14 +662,10 @@
   padding: 0;
   text-align: left;
 }
-
-/* List style tweaks for nav look */
 .columns > div > div:first-child > * {
   text-align: left;
   width: 100%;
 }
-
-/* Newsletter/CTA column: align all to left, remove centering */
 .columns > div > div:last-child {
   display: flex;
   flex-direction: column;
@@ -691,8 +678,6 @@
   text-align: left;
   gap: 21px;
 }
-
-/* Headline in right column: make slightly larger for visual balance */
 .columns > div > div:last-child > *:first-child {
   font-size: 1.09rem;
   font-weight: 700;
@@ -701,8 +686,6 @@
   letter-spacing: 0.05em;
   text-align: left;
 }
-
-/* Paragraph in right column */
 .columns > div > div:last-child > *:nth-child(2) {
   font-size: 1rem;
   color: #444;
@@ -712,8 +695,6 @@
   max-width: 350px;
   line-height: 1.55;
 }
-
-/* Button in right column: left-aligned, consistent width/padding, visually distinct */
 .columns > div > div:last-child .button-container {
   margin: 0;
   padding: 0;
@@ -747,13 +728,170 @@
 .columns > div > div:last-child .button:focus {
   background: #23395D;
 }
-
-/* Responsive column sizing for smaller screens */
 @media (max-width: 900px) {
   .columns > div > div:first-child,
   .columns > div > div:last-child {
     max-width: 98vw;
     min-width: unset;
     padding: 0;
+  }
+}
+
+
+.columns {
+  background: #fff;
+  padding: 48px 0;
+  box-sizing: border-box;
+}
+
+/* Two-column grid, right column only slightly wider and gap reduced */
+.columns > div {
+  display: grid;
+  grid-template-columns: 1fr 1.07fr;
+  gap: 26px;
+  max-width: 880px;
+  margin: 0 auto;
+  align-items: start;
+  min-height: 420px;
+}
+
+@media (max-width: 900px) {
+  .columns > div {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 98vw;
+    padding: 0 3vw;
+    min-height: unset;
+    align-items: stretch;
+  }
+  .columns > div > div {
+    max-width: none;
+    min-width: 0;
+  }
+}
+
+/* Left column: links stack from top, tight grouping */
+.columns > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  max-width: 253px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.columns > div > div:first-child > * {
+  margin-bottom: 15px;
+  text-align: left;
+  color: #9c8650;
+  font-size: 1.04rem;
+  line-height: 1.44;
+}
+
+.columns > div > div:first-child > *:first-child {
+  font-size: 1.04rem;
+  font-weight: 600;
+  color: #9c8650;
+  margin-bottom: 15px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Right column: align to top, very compact grouping */
+.columns > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  max-width: 320px;
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Heading: slightly smaller, bold, gold-brown, minimal spacing */
+.columns > div > div:last-child > *:first-child {
+  color: #9c8650;
+  font-size: 0.94rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.14;
+  letter-spacing: 0.025em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Paragraph: normal weight, neutral color, minimal spacing */
+.columns > div > div:last-child > p {
+  color: #444;
+  font-size: 0.96rem;
+  line-height: 1.37;
+  margin: 0 0 2px 0;
+  text-align: left;
+  font-weight: 400;
+  max-width: 270px;
+}
+
+/* Button in right column: gold-brown, left-aligned, very compact */
+.columns > div > div:last-child .button-container {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-align: left;
+}
+
+.columns > div > div:last-child .button {
+  display: inline-block;
+  border: none;
+  background: #9c8650;
+  color: #fff;
+  border-radius: 6px;
+  padding: 9px 14px;
+  font-size: 0.93rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  box-shadow: none;
+  outline: none;
+  min-width: 120px;
+  max-width: 150px;
+  width: auto;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+
+.columns > div > div:last-child .button:hover,
+.columns > div > div:last-child .button:focus {
+  background: #b49c67;
+  color: #fff;
+}
+
+/* Remove excessive vertical spacing between elements in right column */
+.columns > div > div:last-child > *:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+@media (max-width: 700px) {
+  .columns {
+    padding: 18px 0;
+  }
+  .columns > div > div,
+  .columns > div > div:last-child {
+    max-width: 98vw;
+    min-width: unset;
+    padding: 0;
+  }
+  .columns > div > div:last-child {
+    min-height: unset;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
