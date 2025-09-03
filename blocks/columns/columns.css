@@ -1,6 +1,16 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+  place-items: start start;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  padding: 0;
 }
 
 .columns img {
@@ -9,6 +19,18 @@
 
 .columns > div > div {
   order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  max-width: 400px;
+  width: 100%;
+  padding-bottom: 32px;
+  box-sizing: border-box;
+  justify-content: center;
+  flex: 1 1 0px;
+  min-height: 400px;
+  padding: 0;
 }
 
 .columns > div > .columns-img-col {
@@ -34,35 +56,12 @@
 
 
 .columns {
-  background: var(--background-color);
-  padding: 64px 7vw 80px 7vw;
+  background: #f5f3f0;
+  padding: 0;
   box-sizing: border-box;
+  min-height: 80vh;
 }
 
-/* Four columns: equal width, more air between columns */
-.columns > div {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 84px;
-  max-width: 1280px;
-  margin: 0 auto;
-  align-items: start;
-  justify-items: start;
-}
-
-/* Each column: vertical stack, left aligned, equal width */
-.columns > div > div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-width: 0;
-  max-width: 320px;
-  width: 100%;
-  padding-bottom: 32px;
-  box-sizing: border-box;
-}
-
-/* Cap newsletter column height, scroll overflow, match width */
 .columns > div > div:last-child {
   max-height: 700px;
   overflow-y: auto;
@@ -71,7 +70,6 @@
   padding-right: 16px;
 }
 
-/* Section headings: larger, bold, more margin below, more air above buttons */
 .columns > div > div > *:first-child {
   color: var(--text-color);
   font-weight: 700;
@@ -82,7 +80,6 @@
   text-align: left;
 }
 
-/* In last column, make big headings smaller and space out for harmony */
 .columns > div > div:last-child h3,
 .columns > div > div:last-child h4 {
   font-size: 1em;
@@ -92,7 +89,6 @@
   line-height: 1.13;
 }
 
-/* Buttons: allow text wrapping, outlined, left-aligned, airy */
 .columns .button-container {
   width: 100%;
   display: block;
@@ -123,13 +119,11 @@
   word-break: break-word;
 }
 
-/* Extra air below last button in each group */
 .columns .button-container:last-of-type {
   margin-bottom: 52px;
 }
 
-/* Lighter, smaller body text for descriptions and form fields */
-.columns > div > div > p:not(:first-child):not(.button-container) {
+.columns > div > div > p:not(:first-child, .button-container) {
   color: #aaa;
   font-size: 0.95em;
   margin-bottom: 24px;
@@ -137,7 +131,6 @@
   line-height: 1.8;
 }
 
-/* Left alignment and proper word breaking for all content */
 .columns > div > div > * {
   text-align: left;
   width: 100%;
@@ -145,43 +138,215 @@
   word-break: break-word;
 }
 
-/* Responsive: 2 columns for tablet, 1 for mobile, adapt gaps */
-@media (max-width: 1100px) {
+@media (width <= 1100px) {
   .columns > div {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 56px;
   }
+
   .columns {
     padding-left: 4vw;
     padding-right: 4vw;
   }
+
   .columns > div > div,
   .columns > div > div:last-child {
     max-width: none;
   }
 }
 
-@media (max-width: 700px) {
+@media (width <= 700px) {
   .columns > div {
     grid-template-columns: 1fr;
     gap: 36px;
     max-width: 97vw;
   }
+
   .columns {
     padding: 32px 2vw;
   }
+
   .columns > div > div,
   .columns > div > div:last-child {
     max-width: none;
   }
 }
 
-/* Links: elegant, neutral, soft hover */
 .columns a {
   color: var(--text-color);
   text-decoration: underline;
   transition: color 0.2s;
 }
+
 .columns a:hover {
   color: #B48A58;
+}
+
+/* Main row: side by side, center both vertically and horizontally */
+
+/* Responsive: stack vertically, center horizontally */
+@media (width <= 900px) {
+  .columns > div {
+    flex-direction: column;
+    min-height: unset;
+    gap: 32px;
+    max-width: 98vw;
+    padding: 32px 0;
+  }
+}
+
+/* Each column: center vertically inside */
+
+/* Hide unused columns only if there are more than two columns present */
+.columns > div > div:nth-child(n+4),
+.columns > div > div:nth-child(1) {
+  display: none;
+}
+
+/* Left column: nav buttons aligned center */
+.columns > div > div:nth-child(2) {
+  align-items: center;
+  padding-right: 24px;
+}
+
+@media (width <= 900px) {
+  .columns > div > div:nth-child(2) {
+    padding-right: 0;
+  }
+}
+
+/* Right column: policy buttons aligned center */
+.columns > div > div:nth-child(3) {
+  align-items: center;
+  padding-left: 24px;
+}
+
+@media (width <= 900px) {
+  .columns > div > div:nth-child(3) {
+    padding-left: 0;
+  }
+}
+
+/* Navigation Buttons: left column */
+.columns > div > div:nth-child(2) .button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+/* Main nav button style: navy, all-caps, centered */
+.columns > div > div:nth-child(2) .button {
+  background: #222c38;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 18px 32px;
+  font-size: 1.13em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  margin-top: 0;
+  text-align: center;
+  box-shadow: none;
+  transition: background 0.2s;
+  outline: none;
+  width: 100%;
+  min-width: 220px;
+  cursor: pointer;
+  max-width: 380px;
+}
+
+/* Top "label" button: lighter & non-interactive */
+.columns > div > div:nth-child(2) .button-container:first-child .button {
+  background: transparent;
+  color: #a2a2a2;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: none;
+  margin-bottom: 26px;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  pointer-events: none;
+  cursor: default;
+  padding: 0;
+  width: 100%;
+  max-width: 380px;
+}
+
+/* Make second button larger to mimic a heading */
+.columns > div > div:nth-child(2) .button-container:nth-child(2) .button {
+  font-size: 1.45em;
+  font-weight: bold;
+  margin-bottom: 24px;
+  padding: 22px 32px;
+}
+
+/* Policy Buttons: right column */
+.columns > div > div:nth-child(3) .button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.columns > div > div:nth-child(3) .button {
+  background: transparent;
+  color: #232323;
+  border: 1.2px solid #232323;
+  border-radius: 8px;
+  padding: 16px 22px;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  margin-top: 0;
+  text-align: left;
+  box-shadow: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  min-width: 220px;
+  max-width: 380px;
+  width: 100%;
+}
+
+/* Policy top "label" button: lighter & non-interactive */
+.columns > div > div:nth-child(3) .button-container:first-child .button {
+  background: transparent;
+  color: #a2a2a2;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: none;
+  margin-bottom: 26px;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: left;
+  pointer-events: none;
+  cursor: default;
+  padding: 0;
+  width: 100%;
+  max-width: 380px;
+}
+
+@media (width <= 900px) {
+  .columns > div > div,
+  .columns > div > div:nth-child(2),
+  .columns > div > div:nth-child(3) {
+    max-width: 98vw;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    width: 100%;
+    min-height: unset;
+  }
+
+  .columns > div > div:nth-child(2) .button,
+  .columns > div > div:nth-child(3) .button {
+    max-width: 98vw;
+    min-width: 160px;
+  }
 }
