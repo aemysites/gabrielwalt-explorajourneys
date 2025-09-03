@@ -3,16 +3,17 @@
   display: flex;
   flex-direction: row;
   grid-template-columns: 1fr 1.07fr;
-  gap: 28px;
+  gap: 36px;
   max-width: 980px;
   margin: 0 auto;
   place-items: start start;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: stretch;
   min-height: 420px;
   padding: 0;
   width: 100%;
   box-sizing: border-box;
+  height: 420px;
 }
 
 .columns img {
@@ -33,7 +34,6 @@
   min-height: 400px;
   padding-bottom: 32px;
   margin: 0;
-  /* Removed "padding: 0;" to avoid overriding issues */
 }
 
 .columns > div > .columns-img-col {
@@ -77,15 +77,14 @@
 .columns > div > div:last-child {
   max-height: 700px;
   overflow-y: auto;
-  max-width: 600px;
+  max-width: 440px;
   width: 100%;
   padding-right: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  min-width: 0;
-  /* Removed "padding: 0;" to avoid overriding issues */
+  min-width: 340px;
   text-align: left;
   gap: 18px;
   min-height: 330px;
@@ -95,6 +94,7 @@
   order: 3;
   padding-left: 0;
   padding-top: 0;
+  padding: 0;
 }
 
 .columns > div > div > *:first-child {
@@ -141,7 +141,7 @@
   white-space: normal;
   overflow: visible;
   text-overflow: unset;
-  word-break: break-word; /* Deprecated "break-word" replaced with "break-word" */
+  word-break: break-word;
   text-decoration: none;
   margin-bottom: 24px;
   margin-top: 0;
@@ -645,12 +645,12 @@
 .columns > div > div:first-child {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 24px;
   width: 100%;
-  max-width: 520px;
-  min-width: 180px;
+  max-width: 380px;
+  min-width: 320px;
   padding: 0;
   text-align: left;
   box-sizing: border-box;
@@ -677,7 +677,7 @@
 .columns > div > div:last-child > *:first-child {
   font-size: 1.07rem;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 22px;
   margin-top: 0;
   letter-spacing: 0.02em;
   text-align: left;
@@ -695,7 +695,7 @@
 .columns > div > div:last-child > *:nth-child(2) {
   font-size: 22px;
   color: #2C2C2C;
-  margin-bottom: 8px;
+  margin-bottom: 34px;
   margin-top: 0;
   text-align: left;
   max-width: 350px;
@@ -713,17 +713,19 @@
   display: flex;
   text-align: left;
   justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .columns > div > div:last-child .button {
   display: inline-block;
-  background: #8B7355;
+  background: #8B7B55;
   color: #fff;
   border: none;
   border-radius: 6px;
-  padding: 13px 38px;
-  font-size: 1rem;
-  font-weight: 700;
+  padding: 15px 42px;
+  font-size: 1.09rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -734,7 +736,7 @@
   transition: background 0.2s;
   min-width: 220px;
   max-width: 100%;
-  margin-top: 16px;
+  margin-top: 22px;
   margin-bottom: 0;
   width: auto;
   text-decoration: underline;
@@ -1051,11 +1053,13 @@
 
 .columns > div > div:first-child img {
   display: block;
-  width: auto;
+  width: 320px;
   height: 100%;
   max-height: 320px;
   object-fit: cover;
-  border-radius: 18px;
+  border-radius: 0;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .columns,
@@ -1157,12 +1161,6 @@
   box-shadow: none;
 }
 
-
-/* Experiment 5: Refined for better match to original Monaco block layout */
-
-/* Side-by-side columns, compact gap for balance */
-
-/* Responsive stacking on mobile */
 @media (width <= 900px) {
   .columns > div {
     flex-direction: column;
@@ -1172,9 +1170,6 @@
   }
 }
 
-/* Column containers: left/top alignment, no extra padding/margin */
-
-/* Image: minimal rounded corners, fits column, compact below */
 .columns > div > div img {
   display: block;
   width: 100%;
@@ -1186,7 +1181,6 @@
   box-shadow: none;
 }
 
-/* Headline: bigger, darker, sentence case, close below image */
 .columns > div > div > *:not(img):first-child {
   color: #222;
   font-size: 25px;
@@ -1199,7 +1193,6 @@
   text-align: left;
 }
 
-/* Description: bigger, lighter gray, compact spacing */
 .columns > div > div > p:not(:first-child) {
   color: #666;
   font-size: 17px;
@@ -1209,8 +1202,6 @@
   line-height: 1.6;
   text-align: left;
 }
-
-/* Button as link: left-aligned, subtle, smaller, no fill or uppercase */
 
 .columns .button-container .button {
   background: none;
@@ -1233,14 +1224,10 @@
   display: inline-block;
 }
 
-/* Remove vertical space below last item */
 .columns > div > div > *:last-child {
   margin-bottom: 0;
 }
 
-/* Tighten right column vertical rhythm if it lacks image */
-
-/* Remove excess space on mobile */
 @media (width <= 700px) {
   .columns {
     max-width: 98vw;
@@ -1256,5 +1243,48 @@
   .columns > div > div img {
     margin-bottom: 8px;
     max-height: 120px;
+  }
+}
+
+
+/* Remove rounded corners from image */
+
+/* Main row: columns align side by side and are of equal height */
+
+/* Left column: image container fills parent vertically */
+
+/* Right column: use a flex container to vertically center the inner content block */
+
+/* Optional: fine-tune vertical spacing inside the content block */
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .columns > div {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    min-height: unset;
+    height: auto;
+  }
+
+  .columns > div > div,
+  .columns > div > div:last-child,
+  .columns > div > div:first-child {
+    min-width: 0;
+    max-width: 98vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .columns > div > div:first-child img {
+    max-width: 96vw;
+    height: auto;
+  }
+
+  .columns > div > div:last-child {
+    height: auto;
+    min-height: unset;
+    padding: 0;
   }
 }
