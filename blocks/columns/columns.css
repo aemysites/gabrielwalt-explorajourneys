@@ -743,8 +743,6 @@
   padding: 48px 0;
   box-sizing: border-box;
 }
-
-/* Two-column grid, right column only slightly wider and gap reduced */
 .columns > div {
   display: grid;
   grid-template-columns: 1fr 1.07fr;
@@ -769,8 +767,6 @@
     min-width: 0;
   }
 }
-
-/* Left column: links stack from top, tight grouping */
 .columns > div > div:first-child {
   display: flex;
   flex-direction: column;
@@ -799,8 +795,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
-/* Right column: align to top, very compact grouping */
 .columns > div > div:last-child {
   display: flex;
   flex-direction: column;
@@ -813,8 +807,6 @@
   box-sizing: border-box;
   padding: 0;
 }
-
-/* Heading: slightly smaller, bold, gold-brown, minimal spacing */
 .columns > div > div:last-child > *:first-child {
   color: #9c8650;
   font-size: 0.94rem;
@@ -825,8 +817,6 @@
   text-align: left;
   text-transform: uppercase;
 }
-
-/* Paragraph: normal weight, neutral color, minimal spacing */
 .columns > div > div:last-child > p {
   color: #444;
   font-size: 0.96rem;
@@ -836,8 +826,6 @@
   font-weight: 400;
   max-width: 270px;
 }
-
-/* Button in right column: gold-brown, left-aligned, very compact */
 .columns > div > div:last-child .button-container {
   margin: 0;
   padding: 0;
@@ -873,8 +861,6 @@
   background: #b49c67;
   color: #fff;
 }
-
-/* Remove excessive vertical spacing between elements in right column */
 .columns > div > div:last-child > *:not(:last-child) {
   margin-bottom: 3px;
 }
@@ -893,5 +879,164 @@
     min-height: unset;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+}
+
+
+.columns {
+  background: #fff;
+  padding: 72px 0 72px 0;
+  box-sizing: border-box;
+}
+
+/* Side-by-side layout for the two columns, central alignment and balanced widths */
+.columns > .columns14 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 520px;
+}
+
+/* Responsive stacking for mobile */
+@media (max-width: 900px) {
+  .columns > .columns14 > div {
+    flex-direction: column;
+    gap: 32px;
+    max-width: 98vw;
+    min-height: unset;
+    padding: 0 3vw;
+    align-items: stretch;
+  }
+}
+
+/* Left column: card effect, full vertical centering, visual motif */
+.columns > .columns14 > div > div:first-child {
+  background: #fff;
+  border: 1px solid #d3cfc7;
+  box-shadow: 0 4px 14px rgba(60,44,20,0.07);
+  border-radius: 0;
+  box-sizing: border-box;
+  min-width: 0;
+  flex: 1 1 0;
+  max-width: 520px;
+  min-height: 440px;
+  padding: 56px 48px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  margin: 0;
+}
+
+/* Decorative circle and horizontal line (motif) above heading */
+.columns > .columns14 > div > div:first-child::before {
+  display: block;
+  position: absolute;
+  top: -38px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 42px;
+  height: 42px;
+  background: #f5f1ea;
+  border: 1.5px solid #d3cfc7;
+  border-radius: 50%;
+  z-index: 2;
+}
+.columns > .columns14 > div > div:first-child::after {
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  height: 1.5px;
+  background: #d3cfc7;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Heading styling for prominence */
+.columns > .columns14 > div > div:first-child > *:first-child {
+  font-size: 1.58em;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 38px;
+  margin-top: 28px;
+  line-height: 1.17;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+
+/* List items: bullet simulation using pseudo-elements, generous spacing */
+.columns > .columns14 > div > div:first-child > p:not(:first-child):not(:last-child) {
+  position: relative;
+  color: #38322b;
+  font-size: 1.17em;
+  font-weight: 400;
+  margin: 0 0 23px 0;
+  padding-left: 22px;
+  line-height: 1.88;
+  text-align: left;
+}
+.columns > .columns14 > div > div:first-child > p:not(:first-child):not(:last-child)::before {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 1.08em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #38322b;
+}
+
+/* Fine print styling for last paragraph */
+.columns > .columns14 > div > div:first-child > p:last-child {
+  font-size: 0.96em;
+  color: #615a4b;
+  margin-top: 48px;
+  line-height: 1.32;
+  text-align: left;
+  opacity: 0.96;
+}
+
+/* Remove default spacing for tight grouping inside card */
+.columns > .columns14 > div > div:first-child > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Right column: vertical centering, allow wider width for balance */
+.columns > .columns14 > div > div:last-child {
+  box-sizing: border-box;
+  min-width: 0;
+  flex: 1 1 0;
+  max-width: 540px;
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0 0 0;
+  margin: 0;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 900px) {
+  .columns > .columns14 > div > div:first-child,
+  .columns > .columns14 > div > div:last-child {
+    max-width: 100vw;
+    min-width: 0;
+    margin: 0;
+    padding: 32px 10px 22px 10px;
+    min-height: unset;
+    box-shadow: none;
+  }
+  .columns > .columns14 > div > div:first-child {
+    padding-top: 42px;
   }
 }
