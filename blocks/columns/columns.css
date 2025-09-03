@@ -1,14 +1,14 @@
 /* stylelint-disable no-descending-specificity */
 .columns > div {
-  display: flex;
+  display: grid;
   flex-direction: row;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 48px;
-  max-width: 1100px;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  max-width: 900px;
   margin: 0 auto;
   place-items: start start;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 600px;
   padding: 0;
 }
@@ -21,16 +21,16 @@
   order: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   min-width: 0;
-  max-width: 400px;
+  max-width: 390px;
   width: 100%;
-  padding-bottom: 32px;
   box-sizing: border-box;
   justify-content: center;
   flex: 1 1 0px;
   min-height: 400px;
-  padding: 0;
+  /* Removed shorthand padding to eliminate conflict */
+  padding-bottom: 32px;
 }
 
 .columns > div > .columns-img-col {
@@ -56,8 +56,8 @@
 
 
 .columns {
-  background: #f5f3f0;
-  padding: 0;
+  background: #fff;
+  padding: 40px 0;
   box-sizing: border-box;
   min-height: 80vh;
 }
@@ -71,13 +71,17 @@
 }
 
 .columns > div > div > *:first-child {
-  color: var(--text-color);
-  font-weight: 700;
-  font-size: 1.28em;
-  margin-bottom: 52px;
+  color: #b5b5b5;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 26px;
   margin-top: 0;
   line-height: 1.2;
   text-align: left;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border: none;
+  background: none;
 }
 
 .columns > div > div:last-child h3,
@@ -93,6 +97,8 @@
   width: 100%;
   display: block;
   margin-bottom: 0;
+  margin: 0 0 10px;
+  padding: 0;
 }
 
 .columns .button-container .button {
@@ -117,6 +123,7 @@
   overflow: visible;
   text-overflow: unset;
   word-break: break-word;
+  text-decoration: none;
 }
 
 .columns .button-container:last-of-type {
@@ -182,9 +189,6 @@
   color: #B48A58;
 }
 
-/* Main row: side by side, center both vertically and horizontally */
-
-/* Responsive: stack vertically, center horizontally */
 @media (width <= 900px) {
   .columns > div {
     flex-direction: column;
@@ -195,15 +199,11 @@
   }
 }
 
-/* Each column: center vertically inside */
-
-/* Hide unused columns only if there are more than two columns present */
 .columns > div > div:nth-child(n+4),
 .columns > div > div:nth-child(1) {
   display: none;
 }
 
-/* Left column: nav buttons aligned center */
 .columns > div > div:nth-child(2) {
   align-items: center;
   padding-right: 24px;
@@ -215,7 +215,6 @@
   }
 }
 
-/* Right column: policy buttons aligned center */
 .columns > div > div:nth-child(3) {
   align-items: center;
   padding-left: 24px;
@@ -227,7 +226,6 @@
   }
 }
 
-/* Navigation Buttons: left column */
 .columns > div > div:nth-child(2) .button-container {
   width: 100%;
   display: flex;
@@ -235,7 +233,6 @@
   margin-bottom: 0;
 }
 
-/* Main nav button style: navy, all-caps, centered */
 .columns > div > div:nth-child(2) .button {
   background: #222c38;
   color: #fff;
@@ -258,7 +255,6 @@
   max-width: 380px;
 }
 
-/* Top "label" button: lighter & non-interactive */
 .columns > div > div:nth-child(2) .button-container:first-child .button {
   background: transparent;
   color: #a2a2a2;
@@ -277,7 +273,6 @@
   max-width: 380px;
 }
 
-/* Make second button larger to mimic a heading */
 .columns > div > div:nth-child(2) .button-container:nth-child(2) .button {
   font-size: 1.45em;
   font-weight: bold;
@@ -285,7 +280,6 @@
   padding: 22px 32px;
 }
 
-/* Policy Buttons: right column */
 .columns > div > div:nth-child(3) .button-container {
   width: 100%;
   display: flex;
@@ -313,7 +307,6 @@
   width: 100%;
 }
 
-/* Policy top "label" button: lighter & non-interactive */
 .columns > div > div:nth-child(3) .button-container:first-child .button {
   background: transparent;
   color: #a2a2a2;
@@ -349,4 +342,124 @@
     max-width: 98vw;
     min-width: 160px;
   }
+}
+
+/* Responsive 2-column grid layout */
+
+@media (width <= 820px) {
+  .columns > div {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    max-width: 96vw;
+  }
+}
+
+/* Each column: vertical stack */
+
+/* Headings at top of each column */
+
+/* Remove all button styling, make items flex rows, normal weight */
+
+/* Left column: true list look, with dot */
+.columns > div > div:first-child .button,
+.columns > div > div:nth-child(1) .button,
+.columns > div > div:nth-child(2) .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #232323;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+  width: 100%;
+  min-width: unset;
+  max-width: 100%;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  gap: 12px;
+  cursor: pointer;
+  white-space: normal;
+  outline: none;
+
+  /* Remove button global styles override if present */
+}
+
+/* Remove underline from text unless hovered */
+
+.columns .button-container .button:hover,
+.columns .button-container .button:focus {
+  text-decoration: underline;
+}
+
+/* Dot for left column only */
+.columns > div > div:first-child .button::before,
+.columns > div > div:nth-child(1) .button::before,
+.columns > div > div:nth-child(2) .button::before {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: #b5cfe2;
+  vertical-align: middle;
+}
+
+/* Remove background and dot on right column, keep text only */
+.columns > div > div:last-child .button,
+.columns > div > div:nth-child(3) .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #232323;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+  width: 100%;
+  min-width: unset;
+  max-width: 100%;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  gap: 0;
+  cursor: pointer;
+  white-space: normal;
+  outline: none;
+}
+
+.columns > div > div:last-child .button::before,
+.columns > div > div:nth-child(3) .button::before {
+  display: none;
+}
+
+/* Tight vertical spacing */
+.columns .button-container:last-child {
+  margin-bottom: 0;
+}
+
+/* Remove unwanted margins from <p> etc. */
+.columns > div > div > p,
+.columns > div > div > a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Ensure all text and links are left-aligned */
+.columns > div > div,
+.columns > div > div * {
+  text-align: left;
 }
