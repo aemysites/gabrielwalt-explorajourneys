@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: row;
@@ -478,5 +477,171 @@
 
   .columns > div > div > *:first-child {
     margin-bottom: 6px;
+  }
+}
+
+
+.columns.columns14 {
+  background: #fff;
+  padding: 42px 0;
+}
+
+/* Tighter grid container & column gap */
+.columns.columns14 > div {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1100px) {
+  .columns.columns14 > div {
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    max-width: 98vw;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .columns.columns14 > div {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* --- Column content vertical layout --- */
+.columns.columns14 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 220px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.columns.columns14 > div > div:last-child {
+  max-width: 220px;
+}
+
+/* --- Headings (first link in each column, and first p in last column) --- */
+.columns.columns14 .button-container:first-child .button,
+.columns.columns14 > div > div > p:first-child {
+  font-size: 13px;
+  color: #8B784F;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: none;
+  border: none;
+  margin-bottom: 2px;
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+  cursor: default;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+/* --- All other links/items in first three columns --- */
+.columns.columns14 .button-container:not(:first-child) .button {
+  color: #796A54;
+  font-size: 13px;
+  font-weight: normal;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 0 5px 0;
+  text-transform: none;
+  text-align: left;
+  transition: color 0.2s;
+  box-shadow: none;
+  border-radius: 0;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.columns.columns14 .button-container:not(:first-child) .button:hover,
+.columns.columns14 .button-container:not(:first-child) .button:focus {
+  color: #8B784F;
+  text-decoration: underline;
+}
+
+/* Remove underline for links by default in block */
+.columns.columns14 a {
+  text-decoration: none;
+}
+
+/* --- Remove bold from "Our Story" in second column --- */
+.columns.columns14 > div > div:nth-child(2) .button-container:nth-child(2) .button {
+  font-weight: normal;
+}
+
+/* --- Fourth column: show only the first three main elements --- */
+.columns.columns14 > div > div:last-child > *:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+  display: none;
+}
+
+/* --- Fourth column: description --- */
+.columns.columns14 > div > div:last-child > p:nth-child(2) {
+  font-size: 13px;
+  color: #796A54;
+  margin-bottom: 8px;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.6;
+}
+
+/* --- Fourth column: Newsletter button --- */
+.columns.columns14 > div > div:last-child > p:nth-child(3) {
+  display: block;
+  background: #8B784F;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 5px;
+  letter-spacing: 0.05em;
+  margin: 8px auto 0 auto;
+  text-align: center;
+  min-width: 160px;
+  max-width: 220px;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  transition: background 0.2s;
+}
+
+/* Column spacing and vertical rhythm */
+.columns.columns14 .button-container:last-child {
+  margin-bottom: 0;
+}
+.columns.columns14 .button-container {
+  width: 100%;
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .columns.columns14 > div > div,
+  .columns.columns14 > div > div:last-child {
+    max-width: 100vw;
+    padding: 0;
   }
 }
