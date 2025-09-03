@@ -1,6 +1,12 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
-  display: flex;
+  display: grid;
   flex-direction: column;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 84px;
+  max-width: 1280px;
+  margin: 0 auto;
+  place-items: start start;
 }
 
 .columns img {
@@ -9,6 +15,14 @@
 
 .columns > div > div {
   order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  max-width: 320px;
+  width: 100%;
+  padding-bottom: 32px;
+  box-sizing: border-box;
 }
 
 .columns > div > .columns-img-col {
@@ -35,34 +49,10 @@
 
 .columns {
   background: var(--background-color);
-  padding: 64px 7vw 80px 7vw;
+  padding: 64px 7vw 80px;
   box-sizing: border-box;
 }
 
-/* Four columns: equal width, more air between columns */
-.columns > div {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 84px;
-  max-width: 1280px;
-  margin: 0 auto;
-  align-items: start;
-  justify-items: start;
-}
-
-/* Each column: vertical stack, left aligned, equal width */
-.columns > div > div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-width: 0;
-  max-width: 320px;
-  width: 100%;
-  padding-bottom: 32px;
-  box-sizing: border-box;
-}
-
-/* Cap newsletter column height, scroll overflow, match width */
 .columns > div > div:last-child {
   max-height: 700px;
   overflow-y: auto;
@@ -71,7 +61,6 @@
   padding-right: 16px;
 }
 
-/* Section headings: larger, bold, more margin below, more air above buttons */
 .columns > div > div > *:first-child {
   color: var(--text-color);
   font-weight: 700;
@@ -82,7 +71,6 @@
   text-align: left;
 }
 
-/* In last column, make big headings smaller and space out for harmony */
 .columns > div > div:last-child h3,
 .columns > div > div:last-child h4 {
   font-size: 1em;
@@ -92,7 +80,6 @@
   line-height: 1.13;
 }
 
-/* Buttons: allow text wrapping, outlined, left-aligned, airy */
 .columns .button-container {
   width: 100%;
   display: block;
@@ -120,16 +107,14 @@
   white-space: normal;
   overflow: visible;
   text-overflow: unset;
-  word-break: break-word;
+  word-break: break-all;
 }
 
-/* Extra air below last button in each group */
 .columns .button-container:last-of-type {
   margin-bottom: 52px;
 }
 
-/* Lighter, smaller body text for descriptions and form fields */
-.columns > div > div > p:not(:first-child):not(.button-container) {
+.columns > div > div > p:not(:first-child, .button-container) {
   color: #aaa;
   font-size: 0.95em;
   margin-bottom: 24px;
@@ -137,51 +122,199 @@
   line-height: 1.8;
 }
 
-/* Left alignment and proper word breaking for all content */
 .columns > div > div > * {
   text-align: left;
   width: 100%;
   box-sizing: border-box;
-  word-break: break-word;
+  word-break: break-all;
 }
 
-/* Responsive: 2 columns for tablet, 1 for mobile, adapt gaps */
-@media (max-width: 1100px) {
+@media (width <= 1100px) {
   .columns > div {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 56px;
   }
+
   .columns {
     padding-left: 4vw;
     padding-right: 4vw;
   }
+
   .columns > div > div,
   .columns > div > div:last-child {
     max-width: none;
   }
 }
 
-@media (max-width: 700px) {
+@media (width <= 700px) {
   .columns > div {
     grid-template-columns: 1fr;
     gap: 36px;
     max-width: 97vw;
   }
+
   .columns {
     padding: 32px 2vw;
   }
+
   .columns > div > div,
   .columns > div > div:last-child {
     max-width: none;
   }
 }
 
-/* Links: elegant, neutral, soft hover */
 .columns a {
   color: var(--text-color);
   text-decoration: underline;
   transition: color 0.2s;
 }
+
 .columns a:hover {
   color: #B48A58;
+}
+
+
+/* 
+  Make the columns block look like a two-column feature block: 
+  - Only the first two columns show (left: text, right: image or text)
+  - Remove button/nav styling for a clean text + image feel
+  - Use flex for one-dimensional side-by-side layout
+  - Responsive stacking on small screens
+*/
+
+/* 1. Base layout for columns row */
+.columns > div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1040px;
+  margin: 0 auto;
+  gap: 72px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 56px 0;
+}
+
+/* 2. Only show first two columns, hide the rest */
+.columns > div:first-child > div:nth-child(n+3) {
+  display: none;
+}
+
+/* 3. Left column (text block styling) */
+.columns > div:first-child > div:first-child {
+  flex: 1 1 0;
+  max-width: 430px;
+  padding-left: 32px;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Headline: first child, larger, subtle style */
+.columns > div:first-child > div:first-child > *:first-child {
+  color: #252525;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 18px;
+  line-height: 1.22;
+  text-align: left;
+  letter-spacing: 0;
+}
+
+/* Paragraphs in left column */
+.columns > div:first-child > div:first-child p {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 1em;
+  margin-top: 0;
+  line-height: 1.6;
+  max-width: 400px;
+  text-align: left;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* 4. Right column (for potential image) */
+.columns > div:first-child > div:nth-child(2) {
+  flex: 1 1 0;
+  max-width: 540px;
+  padding: 0 12px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Images in right column: landscape, large */
+.columns > div:first-child > div:nth-child(2) img {
+  display: block;
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+/* 5. Remove button/button-container/nav box styling */
+.columns .button-container,
+.columns .button {
+  border: none;
+  background: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  display: inline;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  border-radius: 0;
+  width: auto;
+  outline: none;
+  word-break: normal;
+  white-space: normal;
+  transition: none;
+}
+
+/* 6. Responsive: stack columns on small screens */
+@media (width <= 900px) {
+  .columns > div:first-child {
+    flex-direction: column;
+    gap: 40px;
+    max-width: 97vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .columns > div:first-child > div {
+    max-width: 100%;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  .columns > div:first-child > div:nth-child(2) {
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+/* 7. Extra mobile adjustment */
+@media (width <= 600px) {
+  .columns > div:first-child > div {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .columns > div:first-child {
+    gap: 24px;
+    padding: 24px 0;
+  }
 }
